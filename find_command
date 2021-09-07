@@ -1,0 +1,15 @@
+1.  find . -type f
+--------------------------------
+.       : means current directory
+-type f : we want to find only file not directory
+it will find all files in the current directory ( though they are in different directory in this current directory)
+
+
+2. find . type f -exec cat \;
+-----------------------------------
+-exec : after -exec we can execute any command . here we executed cat command.
+
+
+3. find . type f -exec cat \; | grep flag
+-----------------------------------------------
+ we can also we grep
