@@ -1,0 +1,5 @@
+
+1. Change permissions in all sub directory in a directory:
+---------------------------------------------------------------
+
+chmod -R 777 /directory
